@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+body h3 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 2px ;
+  color: white;  
+}
+
+body h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #F9B23D;
+}
+
+@media screen and (max-width: 480px) {
+  .draw, h2 {
+    font-size: 20px !important;
+  }
+}
+
+a {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FFB548;
+}
+
+.section-container {
+  height: 100vh;
+  width: auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+}
+
+#main-screen {
+  background-image: url(assets/images/main-bg.jpg);
+}
+
+#the-game {
+  background-image: url(assets/images/the-games-bg.jpg);
+}
+
+#features {
+  background-image: url(assets/images/features.jpg);
+}
+
+#requirements {
+  background-image: url(assets/images/requirements.png);
+}
+
+#top-scores {
+  background-image: url(assets/images/top-scores.png);
+}
+
+#newsletter {
+  background-image: url(assets/images/screen-6.png);
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+#mynav {
+  width: auto;
+  background: rgba(0, 0, 0, .5);
+  padding: 22px 22px !important;
+}
+
+#mynavbrand {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: .1em;
+}
+
+.nav-link {
+  color: rgba(255,255,255,1) !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-right: 2rem; 
+}
+
+#s1-h1 {
+  font-family: Arial, sans-serif;
+  font-size: 72px;    
+  font-weight: bold;
+  color: rgb(255, 255, 255); 
+}
+
+#main-screen h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #mynavbrand {
+    margin-left: 20px !important;
+    margin-right: 40px !important;
+  };
+  #leftnav {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+  };
+  .nav-link {
+    margin-right: auto !important;
+  };
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px)  {
+  #mynavbrand {
+    margin-left: 40px !important;
+    margin-right: 60px !important;
+  };
+}
+
+@media only screen and (min-width: 1200px) {
+  #mynavbrand {
+    margin-left: 80px !important;
+    margin-right: 125px !important;
+  };
+}
+
+.trial-btn {
+  width: 260px !important;
+  height: 60px !important;
+  line-height: 2.5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#scroll-down {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+#screen-2-content {
+  width: 80vw;
+  height: 62vh;
+  margin-top: 15vh;
+  margin-left: 9vw;
+  position: absolute;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  max-height: 100%;
+  max-width: 100%;
+  object-position: center;
+  
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-top: -50px;
+}
+
+.carousel-control-prev {
+  margin-left: -60px;
+  margin-top: -50px;
+}
+
+.carousel-control-next {
+  margin-right: -60px;
+  margin-top: -50px;
+} 
+
+#screen-3-content {
+  margin-top: 11.5vh;
+  position: absolute;
+}
+
+#screen-4-content {
+  margin-top: 8vh;
+  margin-left: 5vw;
+  width: 50%;
+  position: absolute;
+}
+
+#screen-4-content table {
+  margin-top: 3vh;
+  width: 580px;
+  height: 68%;
+  table-layout: fixed;
+}
+
+@media (max-width:768px) {
+  #screen-4-content table {
+    width: 90vw;
+    height: 68%;
+  }
+}
+
+table h3 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: #FFB548;
+}
+
+table p{
+  font-size: 18px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+table td {
+  width: 50%;
+  padding-left: 20px;
+  padding-top: 10px;
+  vertical-align: top;
+  border : 2px solid rgb(255, 255, 255, 0.3);
+}
+
+table tr {
+  height: 113px;
+}
+
+#screen-5-content {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+#screen-5-content p {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+#screen-5-content h3 {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #FFB548;
+}
+
+#screen-5-content h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight:normal;
+  color:rgba(255, 255, 255, 0.5);
+}
+
+#screen-5-content h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight:normal;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.the-player {
+  height: 200px;
+}
+
+.top-score {
+  position:relative;
+  background-image: url(assets/images/player-1/Ellipse.svg); 
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80px;  
+  margin-top: 15px;
+}
+
+.cards {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  height: 180px;
+}
+
+.quotes {
+  margin-bottom: 5px;
+  margin-top: -5px;
+}
+
+/* #screen-6-content {
+  margin-left: 5vw;
+  margin-right: 5vw;
+} */
+
+#screen-6-img {
+  background-image: url(assets/images/screen-6-image.png);
+}
+
+#screen-6-content h3 {
+  /* width: 99vw;
+  height: 100vh; */
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+#screen-6-content h1 {
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 92px;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+}
+
+#screen-6-content p {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+}
+
+#email {
+  width: 55%;
+  height: 100%;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  border-color:rgba(255, 255, 255, 0.0);
+  border-radius: 5px;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: #d39e00;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  width: 260.36px;
+  height: 60px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.form-inline button:hover {
+  background-color: #b68902;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.footer-link {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color:#ffffff;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+}
+
+.bottom-border {
+  border-bottom: 0.9px solid #ffffff;
+}
+
+.copyright {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+/* Trial Page */
+
+.trial {
+  background: #9C835F;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+#exit-trial {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: #724C21;
+  background: none;
+  border: none;
+}
+
+.row {
+  align-items: center;
+}
+
+.option {
+  margin: auto auto;
+  height: 20vh;
+  width: 10vw;
+}
+
+@media screen and (max-width: 480px) {
+  .option {
+    width: 10vh;
+  }
+}
+
+.player-button, .com-button {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;  
+}
+
+.clicked {
+  background-color: #c4c4c4 !important;
+  border-radius: 25px !important;
+}
+
+.status {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10vw;
+  font-weight: 700;
+  color: #BD0000;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-result {
+  color: white !important;
+  flex-direction: column;
+  background-color:#4c9654 !important;
+  transform: rotate(-30deg);
+}
+
+.draw {
+  background-color: #035b0c !important;
+  color: white !important;
+  font-size: 36px;
+}
+
+.winner {
+  color: white !important;
+  display: block;
+  text-align: center;
+}
+
+#refresh-game {
+  width: auto;
+  height: auto;
+  background: none;
+  border: none;
+}
+
+.batu {
+  width: 8vw;
+  height: auto;
+}
+
+.kertas, .gunting {
+  width: auto;
+  height: 8vw;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="mystylesheet.css">
+      <title>Let's Play</title>
+  </head>
+  <body>
+    <div class="container-fluid trial">     
+      <div class="d-flex flex-row align-items-center mx-2 mt-2 p-0">
+        <div>
+          <a id="exit-trial" type="button" href="mySite.html" aria-label="Close"><</a>
+        </div>
+        <div class="mx-4">
+          <img src="assets/icons/logo 1.png"></div>
+        <h2>ROCK PAPER SCISSORS</h2>
+      </div>
+      <div class="container-fluid p-0">
+        <div class="row mt-1">
+          <div class="col col-lg-2 offset-lg-3 p-0 text-center">     
+            <div class="container p-0">
+              <h2 style="color: black; font-weight: normal;">PLAYER 1</h2>
+            </div>
+          </div>
+          <div class="col col-lg-2 p-0 text-center">     
+          </div>       
+          <div class="col col-lg-2 p-0 text-center">     
+            <div class="container">
+              <h2 style="color: black; font-weight: normal">COM</h2>                      
+            </div>       
+          </div>
+        </div>     
+        <div class="row mt-1">
+          <!-- Player Move Pallet -->
+          <div class="col col-lg-2 offset-lg-3 p-0 text-center">                      
+            <div class="option mt-2">                      
+              <button name="Batu" class="player-button" type="button" >
+                <img class="batu" src="assets/icons/batu.png">
+              </button>
+            </div>
+
+            <div class="option mt-2">                      
+              <button name="Kertas" class="player-button" type="button">
+                <img class="kertas" src="assets/icons/kertas.png">
+              </button>
+            </div>
+
+            <div class="option mt-2">                      
+              <button name="Gunting" class="player-button" type="button">
+                <img class="gunting" src="assets/icons/gunting.png">
+              </button>
+            </div>
+          </div>
+          <!-- Player Move Pallet -->
+
+          <div class="col col-lg-2 p-0 text-center">
+            <div class="status">
+              VS</div>
+          </div>
+
+          <!-- COM Move Pallet -->
+          <div class="col col-lg-2 p-0 text-center">                      
+            <div class="option mt-2">                      
+              <button name="Batu" class="com-button" type="button" disabled>
+                <img class="batu" src="assets/icons/batu.png">
+              </button>
+            </div>
+
+            <div class="option mt-2">                      
+              <button name="Kertas" class="com-button" type="button" disabled>
+                <img class="kertas" src="assets/icons/kertas.png">
+              </button>
+            </div>
+
+            <div class="option mt-2">                      
+              <button name="Gunting" class="com-button" type="button" disabled>
+                <img class="gunting" src="assets/icons/gunting.png">
+              </button>
+            </div>
+          </div>
+        </div> 
+        <div class="container text-center">
+          <button id="refresh-game" type="button">
+            <img width="50px" src="assets/icons/refresh.png">
+          </button>               
+        </div>
+      </div>
+    </div>
+      <!-- COM Move Pallet -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="trial_class.js"></script>
+  </body>
+</html>
