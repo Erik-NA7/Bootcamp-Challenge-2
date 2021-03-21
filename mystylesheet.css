@@ -114,6 +114,18 @@ a:hover {
   color: rgb(255, 255, 255); 
 }
 
+@media screen and (max-width: 480px) {
+  #s1-h1 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #s1-h3 {
+    font-size: 16px;
+  }
+}
+
 #main-screen h6 {
   font-family: 'Open Sans', sans-serif;
   font-family: Open Sans;
@@ -166,37 +178,58 @@ a:hover {
   font-size: 12px;
 }
 
-#screen-2-content {
-  width: 80vw;
+.screen-2-content {
   height: 62vh;
   margin-top: 15vh;
-  margin-left: 9vw;
   position: absolute;
 }
 
+@media screen and (max-width: 992px) {
+  .screen-2-content {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .the-game {
+    width: 100% !important;
+    margin: auto !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #s2-h1 {
+    font-size: 46px;
+  }
+}
+
 /* Make the image fully responsive */
-.carousel-inner img {
-  max-height: 100%;
-  max-width: 100%;
-  object-position: center;
-  
+.carousel-img {
+  width: 700px;
+  height: 400px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-img {
+    width: 90vw;
+    height: 60vw;
+    object-fit: cover;
+  }  
 }
 
 .carousel-indicators li {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  margin-top: -50px;
 }
 
-.carousel-control-prev {
-  margin-left: -60px;
-  margin-top: -50px;
+.carousel-control-prev  {
+  margin-left: -5vw;
 }
 
 .carousel-control-next {
-  margin-right: -60px;
-  margin-top: -50px;
+  margin-right: -5vw;
 } 
 
 #screen-3-content {
@@ -309,18 +342,11 @@ table tr {
   margin-top: -5px;
 }
 
-/* #screen-6-content {
-  margin-left: 5vw;
-  margin-right: 5vw;
-} */
-
 #screen-6-img {
   background-image: url(assets/images/screen-6-image.png);
 }
 
 #screen-6-content h3 {
-  /* width: 99vw;
-  height: 100vh; */
   font-family: 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -425,7 +451,6 @@ table tr {
 }
 
 /* Trial Page */
-
 .trial {
   background: #9C835F;
   position: fixed;

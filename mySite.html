@@ -11,7 +11,7 @@
 
   <body>
     <!-- Main Screen -->
-    <section class="container-fluid px-0 section-container" id="main-screen" name="screen1">
+    <section class="container-fluid px-0 section-container" id="main-screen">
       <div class="container-fluid px-0">
         <nav class="navbar navbar-expand-md navbar-dark" id="mynav">
           <div class="container-fluid">
@@ -48,14 +48,14 @@
           </div>  
         </nav>  
         <div class="container-lg text-center" id="screen-1-content">
-          <div style="margin-top: 18vh"><h1 id="s1-h1">PLAY TRADITIONAL GAME</h1></div>
+          <div style="margin-top: 10vw"><h1 id="s1-h1">PLAY TRADITIONAL GAME</h1></div>
           <div style="margin-top: 7vh;"><h3 id="s1-h3">Experience new traditional game play</h3></div>
           
           <div style="margin-top: 7vh;">
             <a class="btn btn-warning trial-btn" href="trial.html">TRIAL</a>
           </div>
 
-          <div style="margin-top: 22vh;" class="text-white" id="scroll-down">
+          <div style="margin-top: 10vw;" class="text-white" id="scroll-down">
             <a href="#the-game">
             <h6 class="my-0">THE STORY</h6> 
             <img src="assets/icons/scroll down.svg">
@@ -68,37 +68,38 @@
     
     <!-- Screen-2, The Game -->
     <section class="container-fluid px-0 section-container" id="the-game">
-      <div class="container-fluid px-0" style="width: 100%; height: 100%;">
-        <div class="d-flex flex-sm-row text-white" id="screen-2-content">
-          <div class="d-flex flex-column" style="width: 40vw;">
-            <h3 id="s2-h3">What's so special?</h3> 
-            <h1 id="s2-h1">THE GAMES</h1>           
-          </div>
-          <div id="thegames" class="carousel slide mt-5 py-auto" style="width:60vw;" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#" data-slide-to="0" class="active mx-4"></li>
-              <li data-target="#" data-slide-to="1" class="mx-4"></li>
-              <li data-target="#" data-slide-to="2" class="mx-4"></li>
-            </ol>
-          
-            <!-- The slideshow -->
-            <div class="carousel-inner" style="width: 100%;">
-              <div class="carousel-item active">
-                <img class="d-block px-auto" src="assets/images/rockpaperstrategy-1600.jpg" alt="slide-1">
-              </div>          
-            </div>
-            
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a> 
-            <a class="carousel-control-next" href="#" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-          </div>  
+     <div class="container">
+      <div class="d-flex d-flex-row mt-5 screen-2-content">
+        <div class="p-2 text-white the-game" style="width: 40%"> <!-- style="width: 40%;"> -->
+          <h3 id="s2-h3">What's so special?</h3> 
+          <h1 id="s2-h1">THE GAMES</h1>           
         </div>
-      </div>
+        <div class="p-2 the-game">
+          <div class="carousel slide mt-5 py-auto the-game" data-ride="carousel"> <!-- style="width:60%;"> -->
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#" data-slide-to="0" class="active mx-4"></li>
+            <li data-target="#" data-slide-to="1" class="mx-4"></li>
+            <li data-target="#" data-slide-to="2" class="mx-4"></li>
+          </ol>
+        
+          <!-- The slideshow -->
+          <div class="carousel-inner" style="width: 100%;">
+            <div class="carousel-item active">
+              <img class="d-block px-auto carousel-img" src="assets/images/rockpaperstrategy-1600.jpg" alt="slide-1">
+            </div>          
+          </div>
+          
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a> 
+          <a class="carousel-control-next" href="#" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>  
+      </div>    
+    </div>
     </section>
     <!-- Screen-2, The game, end -->
     
