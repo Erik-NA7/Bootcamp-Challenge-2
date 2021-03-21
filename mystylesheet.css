@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
-body h3 {
-  font-family: Arial, sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  font-style: normal;
-  letter-spacing: 2px;
-  color: white;  
-}
-
-body h1 {
+h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -23,6 +14,53 @@ h2 {
   font-size: 36px;
   font-weight: 700;
   color: #F9B23D;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: white;  
+}
+
+.h3-yellow {
+  color: #ffb548 !important;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .h3-yellow {
+    font-size: 20px !important;
+  }
+}
+
+p {
+  margin: 0px;
+  font-family: 'Arial';
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+@media (min-width: 320px) and (max-width: 767.9px) {
+  p {
+    font-size: 12px !important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 420px) {
+  .childhood {
+    padding-right: 20px !important;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .features-texts {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -232,61 +270,166 @@ a:hover {
   margin-right: -5vw;
 } 
 
+/* Screen-3 Styling */
+
 #screen-3-content {
   margin-top: 11.5vh;
   position: absolute;
 }
 
-#screen-4-content {
-  margin-top: 8vh;
-  margin-left: 5vw;
-  width: 50%;
-  position: absolute;
+.childhood {
+  padding-left: 8px;
+  padding-right: 80px;
 }
 
-#screen-4-content table {
-  margin-top: 3vh;
-  width: 580px;
-  height: 68%;
-  table-layout: fixed;
-}
+@media (min-width:768px) and (max-width: 991.9px) {
+  .features {
+    /* margin: auto !important; */
+    width: 40vw !important;
+  }
+}  
 
-@media (max-width:768px) {
-  #screen-4-content table {
-    width: 90vw;
-    height: 68%;
+@media (min-width:768px) and (max-width: 991.9px) {
+  .childhood {
+    padding-right: 0px;
   }
 }
 
-table h3 {
-  margin-top: 0px;
-  margin-bottom: 5px;
-  font-size: 24px;
-  color: #FFB548;
+@media screen and (max-width: 400px) {
+  #s3-h1 {
+    font-size: 40px;
+  }
 }
 
-table p{
-  font-size: 18px;
-  color: white;
-  margin-top: 0px;
-  margin-bottom: 0px;
+#screen-4-content {
+  position: absolute;
 }
 
-table td {
+@media (min-width: 320px) and (max-width: 480px) {
+  .s4-h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+.can-run {
+  margin-bottom: -30px;
+}
+
+@media screen and (max-width: 992px) {
+  .can-run {
+    margin-bottom: 0px;
+    text-align: left !important;
+  } 
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .s4-headers {
+    margin-left: 16.5px !important;
+    margin-right: 16.5px !important;
+  }
+}
+
+table {
+  table-layout: fixed;
+}
+
+@media screen and (max-width: 992px) {
+  .table-container {
+    width: 90% !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+td {
+  padding: 10px;
   width: 50%;
-  padding-left: 20px;
-  padding-top: 10px;
   vertical-align: top;
-  border : 2px solid rgb(255, 255, 255, 0.3);
+  border: 2px solid rgb(255, 255, 255, 0.3);
 }
 
-table tr {
-  height: 113px;
+tr {
+  width: 50%;
 }
+
+td > div {
+  height: 100px;
+}
+
+/* tr {
+  height: 16vh;
+} */
 
 #screen-5-content {
   margin-left: 10vw;
   margin-right: 10vw;
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+  #screen-5-content {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  #screen-5-content {
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  #screen-5-content {
+    margin-left: 5vw !important;
+    margin-right: 5vw !important;
+    align-content: center;
+    align-items: center;
+    
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  #topscore-left {
+    width: auto !important;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  #topscore-right {
+    width: auto !important;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  #s5-h1 {
+    font-size: 36px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  #topscore-left-p {
+    width: auto !important;
+  }
+}
+
+.player-name {
+    margin-left: 22%;
+}
+
+@media screen and (max-width: 767.9px) {
+.player-name {
+  margin-left: 27%;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .seemore-btn {
+    margin: 0px !important;
+  }
 }
 
 #screen-5-content p {
@@ -331,16 +474,49 @@ table tr {
   margin-top: 15px;
 }
 
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .the-player {
+    margin-right: -62px ;
+    margin-left: -62px;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .the-player {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    height: auto !important;
+  }
+}
+
 .cards {
   background: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
   height: 180px;
 }
 
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .cards {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .cards {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: 160px !important;
+  }
+}
+
 .quotes {
   margin-bottom: 5px;
   margin-top: -5px;
 }
+
+/* Screen-6 */
 
 #screen-6-img {
   background-image: url(assets/images/screen-6-image.png);
@@ -416,12 +592,11 @@ table tr {
 @media (max-width: 800px) {
   .form-inline input {
     margin: 10px 0;
-  }
-  
+  };  
   .form-inline {
     flex-direction: column;
     align-items: stretch;
-  }
+  };
 }
 
 .footer-link {
