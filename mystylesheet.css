@@ -7,6 +7,7 @@ h1 {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 3px;
+  color: white;
 }
 
 h2 {
@@ -47,19 +48,6 @@ p {
 @media (min-width: 320px) and (max-width: 767.9px) {
   p {
     font-size: 12px !important;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 420px) {
-  .childhood {
-    padding-right: 20px !important;
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .features-texts {
-    font-size: 14px;
   }
 }
 
@@ -118,7 +106,7 @@ a:hover {
 }
 
 #newsletter {
-  background-image: url(assets/images/screen-6.png);
+  background-image: url(assets/images/screen-6-bg.png);
   background-size: 100% 100%;
   height: 100vh;
 }
@@ -216,6 +204,8 @@ a:hover {
   font-size: 12px;
 }
 
+/* Screen-2 Styling */
+
 .screen-2-content {
   height: 62vh;
   margin-top: 15vh;
@@ -272,6 +262,19 @@ a:hover {
 
 /* Screen-3 Styling */
 
+@media (min-width: 279) and (max-width: 420px) {
+  .childhood {
+    padding-right: 10px !important;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .features-texts {
+    font-size: 14px;
+  }
+}
+
 #screen-3-content {
   margin-top: 11.5vh;
   position: absolute;
@@ -284,10 +287,29 @@ a:hover {
 
 @media (min-width:768px) and (max-width: 991.9px) {
   .features {
-    /* margin: auto !important; */
     width: 40vw !important;
   }
-}  
+}
+
+@media (min-width:540px) and (max-width: 719.9px) {
+  .childhood {
+    font-size: 16px !important;
+  }
+}
+
+@media (min-width:540px) and (max-width: 719.9px) {
+  .features {
+    width: 100vw !important;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 414px) {
+  .features {
+    width: 100% !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+} 
 
 @media (min-width:768px) and (max-width: 991.9px) {
   .childhood {
@@ -300,6 +322,8 @@ a:hover {
     font-size: 40px;
   }
 }
+
+/* Screen-4 Styling */
 
 #screen-4-content {
   position: absolute;
@@ -358,13 +382,12 @@ td > div {
   height: 100px;
 }
 
-/* tr {
-  height: 16vh;
-} */
+/* Screen-5 Styling */
 
 #screen-5-content {
   margin-left: 10vw;
   margin-right: 10vw;
+  position: absolute;
 }
 
 @media (min-width: 768px) and (max-width: 991.9px) {
@@ -516,7 +539,11 @@ td > div {
   margin-top: -5px;
 }
 
-/* Screen-6 */
+/* Screen-6 Styling*/
+
+#screen-6-content {
+  position: absolute;
+}
 
 #screen-6-img {
   background-image: url(assets/images/screen-6-image.png);
@@ -531,21 +558,18 @@ td > div {
   color: #FFFFFF;
 }
 
-#screen-6-content h1 {
-  font-family: 'Arial', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 80px;
-  line-height: 92px;
-  letter-spacing: 3px;
-  color: #FFFFFF;
-}
-
 #screen-6-content p {
   font-family: 'Arial', sans-serif;
   font-size: 18px;
   font-weight: normal;
   color: white;
+}
+
+@media screen and (max-width: 767.9px) {
+  .s6-h1 {
+    font-size: 36px !important;
+    line-height: 30px;
+  }
 }
 
 .form-inline {  
@@ -599,6 +623,10 @@ td > div {
   };
 }
 
+footer {
+  display:block !important;
+}
+
 .footer-link {
   font-family: 'Open Sans';
   font-style: normal;
@@ -608,6 +636,23 @@ td > div {
   line-height: 16px;
   text-align: right;
   letter-spacing: 0.1em;
+}
+
+footer div {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-height: 640px) {
+  footer div {
+    margin-top: 5px !important;
+  }
+}
+
+@media screen and (max-height: 640px) {
+  .s6 {
+    margin-top: 10px !important;
+  }
 }
 
 .bottom-border {

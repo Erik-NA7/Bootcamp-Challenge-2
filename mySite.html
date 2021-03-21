@@ -11,7 +11,7 @@
 
   <body>
     <!-- Main Screen -->
-    <section class="container-fluid px-0 section-container" id="main-screen">
+    <section id="main-screen" class="container-fluid px-0 section-container">
       <div class="container-fluid px-0">
         <nav class="navbar navbar-expand-md navbar-dark" id="mynav">
           <div class="container-fluid">
@@ -67,7 +67,7 @@
     <!-- Main Screen end-->
     
     <!-- Screen-2, The Game -->
-    <section class="container-fluid px-0 section-container" id="the-game">
+    <section id="the-game" class="container-fluid px-0 section-container">
      <div class="container">
       <div class="d-flex d-flex-row mt-5 screen-2-content">
         <div class="p-2 text-white the-game" style="width: 40%"> <!-- style="width: 40%;"> -->
@@ -104,7 +104,7 @@
     <!-- Screen-2, The game, end -->
     
     <!-- Screen 3, The Features -->
-    <section class="container-fluid px-0 section-container" id="features">
+    <section id="features" class="container-fluid px-0 section-container" >
       <div class="container-fluid" id="screen-3-content">
         <div class="float-sm-right mx-5 features" style="width: 40vw;">
           <div class="d-flex flex-column">
@@ -153,8 +153,8 @@
     <!-- Screen 3, The Features, end -->
     
     <!-- Screen 4, Requirements -->
-    <section class="container-fluid px-0 section-container" id="requirements">
-      <div class="container-fluid mt-5" id="screen-4-content">
+    <section id="requirements" class="container-fluid px-0 section-container">
+      <div id="screen-4-content" class="container-fluid mt-5">
         <div class="d-flex flex-column mx-5 s4-headers">
           <div class="container-fluid text-center can-run p-0">
             <p>Can My Computer Run this game?</p>
@@ -210,7 +210,7 @@
     <!-- Screen 4: Requirements end --> 
     
     <!-- Screen 5: Top Scores -->
-    <section class="container-fluid px-0 section-container" id="top-scores">
+    <section id="top-scores" class="container-fluid px-0 section-container">
       <div class="container-fluid px-0" style="position: absolute; height: 100%;">
         <div class="d-flex flex-row" id="screen-5-content">             
           <div id="topscore-left" class="p-2 bd-highlight mx-auto my-auto text-white"
@@ -296,38 +296,32 @@
     <!-- Screen 5: Top Scores end -->
 
     <!-- Screen 6: Subscriptions -->
-    <section class="container-fluid px-0 section-container" id="newsletter">
-      <div id="screen-6-content" class="container-fluid px-0" style="position: absolute; height: 100%;">
-        <div class="d-flex flex-column mx-5 px-5">
-          <div class="p-2 bd-highlight">
-            <div class="d-flex flex-row"> 
-              <div class="p-2 bd-highlight text-center" style="width: 45%;">
-                <img src="assets/images/screen-6-image.png" height="500">
+    <section id="newsletter" class="container-fluid px-0 section-container">
+      <div id="screen-6-content" class="container-fluid">
+        <div class="row mt-5 s6">
+          <div class="col col-lg-6 offset-lg-5">
+            <div class="d-flex flex-column ml-2">
+              <div>
+                <h3>Want to stay in touch?</h3>
               </div>
-            
-              <div class="p-2 bd-highlight mr-3 mt-5" style="width: 55%;"> 
-                <div>
-                  <h3>Want to stay in touch?</h3>
-                </div>
-                <div>
-                  <h1>NEWSLETTER</h1>
-                  <h1>SUBSCRIBE</h1>
-                </div>
-                <div>
-                  <p>In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.</p>
-                </div>
-                <div style="height:60px">
-                  <form class="form-inline">
-                    <input class="my-0" type="email" id="email" placeholder="Your email address" name="email">
-                    <button class="btn btn-warning mt-0" type="submit">Subscribe now</button>
-                  </form>                
-                </div>         
+              <div>
+                <h1 class="s6-h1">NEWSLETTER</h1>
+                <h1 class="s6-h1">SUBSCRIBE</h1>
+              </div>
+              <div class="my-3">
+                <p>In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.</p>
+              </div>
+              <div class="my-2">
+                <form class="form-inline">
+                  <input class="my-0" type="email" id="email" placeholder="Your email address" name="email">
+                  <button class="btn btn-warning mt-0" type="submit">Subscribe now</button>
+                </form>                
               </div>  
-            </div>
-          </div>          
-        <div>
-          <footer>
-          <div class="d-flex justify-content-end pb-5 bottom-border">
+            </div>  
+          </div>
+        </div>
+        <footer class="container">
+          <div class="d-flex justify-content-end bottom-border">
             <div class="d-flex justify-content-end mr-5 align-self-center footer-link text-white">
               <span class="mx-4">
                 <a href="#main-screen"> MAIN</a></span>
