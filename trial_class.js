@@ -46,7 +46,11 @@ class gameSuit {
       }
     }
   }
-};
+
+  display() {
+
+  }
+}
 
 window.addEventListener('load', () => {
   const player = document.getElementsByClassName('player-button');
@@ -78,7 +82,7 @@ window.addEventListener('load', () => {
         displayResult.append(winner);
         displayResult.append(result);
         console.log(`${trial.result()} WIN`);
-      }
+      };
     });
   };
   

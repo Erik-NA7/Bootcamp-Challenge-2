@@ -71,7 +71,13 @@ p {
 
 @media screen and (max-width: 480px) {
   .draw, h2 {
-    font-size: 20px !important;
+    font-size: 24px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .draw, h2 {
+    font-size: 16px !important;
   }
 }
 
@@ -771,6 +777,18 @@ td > div {
   border: none;
 }
 
+@media (max-width:360px) {
+  #exit-trial {
+    font-size: 48px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .rps-logo {
+    width: 48px !important;
+    height: auto;
+  }
+}
 .row {
   align-items: center;
 }
@@ -834,6 +852,13 @@ td > div {
   height: auto;
   background: none;
   border: none;
+}
+
+@media screen and (max-width: 320px) {
+  #refresh-img {
+    width: 30px !important;
+    height: auto !important;
+  }
 }
 
 .batu {
