@@ -46,18 +46,16 @@ class gameSuit {
       }
     }
   }
-
-  display() {
-
-  }
 }
 
+// Wait until the page is loaded, Initiate DOM
 window.addEventListener('load', () => {
   const player = document.getElementsByClassName('player-button');
   const com = document.getElementsByClassName('com-button');
   const displayResult = document.getElementsByClassName("status")[0];
   const refresh = document.getElementById("refresh-game");
   
+  // Handle button click (by player) and go through the game flow
   for (let clicked of player) {
     clicked.addEventListener("click", () => {
       let trial = new gameSuit();  
@@ -86,7 +84,7 @@ window.addEventListener('load', () => {
     });
   };
   
-  // Refresh button
+  // Refresh button (reset DOM state)
   refresh.addEventListener('click', () => {
     for (let button of player) {
       button.classList.remove("clicked");
